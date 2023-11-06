@@ -1,0 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    scroll-behavior: smooth;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+h1 {
+    color: rgb(145, 22, 22);
+    text-decoration: underline; /*Підкреслюємо текст */
+    font-size: 36px;
+}
+
+h1, h2, h3 {
+    font-family: 'Kanit', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+#footer {
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    color: green;
+}
+
+.top-image {
+margin: 50px auto;
+border: 5px solid red;
+padding: 5px;
+width: 50%;
+border-radius: 50%;
+box-shadow: 0 0 20px purple;
+}
